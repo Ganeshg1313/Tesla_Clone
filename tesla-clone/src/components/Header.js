@@ -21,8 +21,8 @@ function Header() {
         ))}      
       </Menu>
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        <a>Shop</a>
+        <a>Tesla Account</a>
         <CustomMenu
         onClick = {(e) => setBurgerStatus(true)}
         />
@@ -33,11 +33,11 @@ function Header() {
         onClick = {(e) => setBurgerStatus(false)}
         />
       </CloseWrapper>
-      <li><a href="#">Existing Inventory</a></li>
-      <li><a href="#">Used Inventory</a></li>
-      <li><a href="#">Trade-in</a></li>
-      <li><a href="#">Cyber Truck</a></li>
-      <li><a href="#">Roadster</a></li>
+      <li><a>Existing Inventory</a></li>
+      <li><a>Used Inventory</a></li>
+      <li><a>Trade-in</a></li>
+      <li><a>Cyber Truck</a></li>
+      <li><a>Roadster</a></li>
       </BurgerNav>
     </Container>
   )
