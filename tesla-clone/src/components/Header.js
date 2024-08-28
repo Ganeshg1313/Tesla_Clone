@@ -12,17 +12,17 @@ function Header() {
 
   return (
     <Container>
-      <a>
+      <a href="/Header.js">
         <img src="/images/logo.svg"></img>
       </a>
       <Menu>
         {cars && cars.map((car, index) => (
-           <a key={index} href="#">{car}</a>   
+           <a key={index} href="/Header.js">{car}</a>   
         ))}      
       </Menu>
       <RightMenu>
-        <a>Shop</a>
-        <a>Tesla Account</a>
+        <a href="/Header.js">Shop</a>
+        <a href="/Header.js">Tesla Account</a>
         <CustomMenu
         onClick = {(e) => setBurgerStatus(true)}
         />
@@ -33,11 +33,11 @@ function Header() {
         onClick = {(e) => setBurgerStatus(false)}
         />
       </CloseWrapper>
-      <li><a>Existing Inventory</a></li>
-      <li><a>Used Inventory</a></li>
-      <li><a>Trade-in</a></li>
-      <li><a>Cyber Truck</a></li>
-      <li><a>Roadster</a></li>
+      <li><a href="/Header.js">Existing Inventory</a></li>
+      <li><a href="/Header.js">Used Inventory</a></li>
+      <li><a href="/Header.js">Trade-in</a></li>
+      <li><a href="/Header.js">Cyber Truck</a></li>
+      <li><a href="/Header.js">Roadster</a></li>
       </BurgerNav>
     </Container>
   )
